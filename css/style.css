@@ -1,0 +1,27 @@
+
+
+.header {
+    background-color: #e1ffd3;
+    padding: 33px 0 32px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item {
+    padding: 30px;
+}
