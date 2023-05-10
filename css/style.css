@@ -1,8 +1,29 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Bellota', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
 
 .header {
-    background-color: #e1ffd3;
+    background-color: rgb(219, 255, 219);
     padding: 33px 0 32px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    line-height: 29px;
 }
 
 .container {
@@ -19,9 +40,10 @@
 
 .menu {
     display: flex;
-    justify-content: space-between;
 }
 
 .menu-item {
     padding: 30px;
 }
+
+
